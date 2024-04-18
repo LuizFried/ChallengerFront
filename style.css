@@ -4,36 +4,11 @@
     text-decoration: none;
 }
 
-.cabecalho {
-    width: 1136px;
-    height: 88px;
+body{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    background-image: linear-gradient(to top, gray, white);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
-.cabecalho__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cabecalho__section__1,
-.cabecalho__section__2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.cabecalho__section__1 p,
-.cabecalho__section__2 p {
-    margin-right: 3rem; 
-}
-
-.cabecalho__section__nome {
-    width: 102px;
-    height: 19px;
-}
