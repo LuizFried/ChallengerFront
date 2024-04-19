@@ -8,3 +8,9 @@
     width: 24px;
     align-items: center;
 }
+
+.tamanho__imagem{
+    width: 2rem;
+    height: 2rem;
+
+}
