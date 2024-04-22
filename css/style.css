@@ -22,6 +22,15 @@ a:visited {
     color: black;
 }
 
+.div__nav:hover{
+     
+    color: white; 
+    border: 0.5px solid white;
+    padding: 1px;
+    border-radius: 10px;
+
+}
+
 body {
     background-color: var(--cordefundo); 
     background-image: linear-gradient(to top, var(--cordefundo), white);
@@ -103,11 +112,6 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.ancora__section:hover {
-    background-color: blue; 
-    color: white; 
-    
-}
 
 footer {
     display: flex;
@@ -129,7 +133,7 @@ footer {
     padding: 20px;
 }
 
-/* Smartphones */
+
 @media (max-width: 576px) {
     .navegacao {
         padding: 10px 2%;
