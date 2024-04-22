@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cordefundo: #444444; /* Cinza escuro suave para o fundo do site */
-    --cordoscards: #7E9B87; /* Verde suave para as seções */
-    --cornav: #4A6572; /* Azul acinzentado para a navegação */
-    --corlinksnav: #e0e0e0; /* Cinza claro para os links na navegação */
+    --cordefundo: #444444; 
+    --cordoscards: #7E9B87; 
+    --cornav: #4A6572; 
+    --corlinksnav: #e0e0e0; 
 }
 
 * {
@@ -23,8 +23,8 @@ a:visited {
 }
 
 body {
-    background-color: var(--cordefundo); /* Fundo do site */
-    background-image: linear-gradient(to top, var(--cordefundo), white); /* Gradiente de fundo */
+    background-color: var(--cordefundo); 
+    background-image: linear-gradient(to top, var(--cordefundo), white);
 }
 
 .navegacao {
@@ -34,7 +34,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cornav); /* Fundo da navegação */
+    background-color: var(--cornav); 
     font-family: "Roboto Condensed", sans-serif;
     font-size: 100%;
     padding: 3% 2%;
@@ -49,7 +49,7 @@ body {
 .div__nav a,
 .div__nav p,
 .a_nav {
-    color: var(--corlinksnav); /* Cor dos links e textos na navegação */
+    color: var(--corlinksnav); 
 }
 
 .main_text {
@@ -64,7 +64,7 @@ body {
 }
 
 .section_geral {
-    background-color: var(--cordoscards); /* Fundo das seções */
+    background-color: var(--cordoscards); 
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -89,7 +89,7 @@ body {
     margin-bottom: 20px;
 }
 
-.div_contato {
+.div_contato_1 {
     display: flex;
     flex-direction: row;
     gap: 2px;
@@ -104,19 +104,29 @@ video {
 }
 
 .ancora__section:hover {
-    background-color: red; /* Efeito hover para as âncoras */
-    color: white; /* Cor do texto em hover */
+    background-color: blue; 
+    color: white; 
+    
 }
 
 footer {
     display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo para o final do footer */
-    padding: 10px; /* Adiciona um espaçamento ao redor do footer */
+    justify-content: flex-end; 
+    padding: 10px; 
 }
 
 .footer_p {
-    color: var(--corlinksnav); /* Cor do texto no rodapé */
-    font-family: "Roboto Condensed", sans-serif; /* Define a fonte do texto */
+    color: var(--corlinksnav);
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 }
 
 /* Smartphones */
